@@ -23,6 +23,11 @@ spec:
         image: mcr.microsoft.com/dotnet/sdk:5.0.201 #images qui se trouvent 
         ports:
         - containerPort: 7070
+        resources:
+          limits:
+            cpu: 200m
+          requests:
+            cpu: 100m
         env:
         - name: PORT
           value: "7070"
