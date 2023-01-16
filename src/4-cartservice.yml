@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: frontend
+  #namespace: frontend
   name: cartservice-dep
 spec:
   replicas: 1
@@ -30,7 +30,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: redis
+  #namespace: redis
   name: cartservice-svc
 spec:
   selector:
