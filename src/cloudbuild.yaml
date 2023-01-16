@@ -19,8 +19,8 @@ steps:
    'set', 
    'image', 
    'deployment', 
-   'email-dep', 
-   'email-con=gcr.io/formationgcp-baptiste/pfr/cartservice:latest'
+   'cartservice-dep', 
+   'cartservice-con=gcr.io/formationgcp-baptiste/pfr/cartservice:latest'
   ]
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=northamerica-northeast1-a'
